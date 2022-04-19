@@ -4,6 +4,10 @@ header {
   background: #bbbbbb;
   padding: 20px 0;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 body {
@@ -175,6 +179,8 @@ th {
   background: #fefefe;
   width: 940px;
   margin: 0 auto;
+  border-radius: 20px;
+  padding: 0 1em 0;
 }
 
 .principal p {
@@ -195,14 +201,19 @@ th {
   margin: 0 20px 20px 0;
 }
 
+/* MAPA */
 .mapa {
   padding: 3em 0;
-  background: linear-gradient(#fefefe, #888888);
+  /* background: linear-gradient(#fefefe, #888888); */
 }
 
 .mapa-conteudo {
   width: 940px;
   margin: 0 auto;
+}
+/* ACRESCENTADO */
+.mapa-conteudo iframe {
+  border-radius: 20px;
 }
 
 .mapa p {
@@ -210,21 +221,26 @@ th {
   text-align: center;
 }
 
-.beneficios {
+/* .beneficios {
   padding: 3em 0;
   background: #888888;
+  width:100%;
 }
 
 .conteudo-beneficios {
-  width: 640px;
+  max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+
 }
 
 .lista-beneficios {
   width: 40%;
   display: inline-block;
   vertical-align: top;
-}
+} */
 
 .itens {
   line-height: 1.5;
@@ -253,7 +269,7 @@ th {
   margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .caixa,
   .principal,
   .conteudo-beneficios,
@@ -274,4 +290,4 @@ th {
   .imagem-beneficios {
     width: 100%;
   }
-}
+} */
