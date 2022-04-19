@@ -77,10 +77,12 @@
   .card-2 .text > h3{
     color: #2740d1;
     padding-top: 12px;
+    font-weight: 500;
   }
   .card-3 .text > h3{
     color: #d12761;
     padding-top: 12px;
+    font-weight: 500;
   }
 
   .card-2 .text > p{

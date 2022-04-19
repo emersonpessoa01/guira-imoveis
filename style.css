@@ -252,6 +252,7 @@ th {
 
 .itens:before {
   content: "✭";
+  color: rgb(194, 194, 28)
 }
 
 .imagem-beneficios {
