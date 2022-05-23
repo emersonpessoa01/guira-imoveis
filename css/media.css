@@ -45,6 +45,10 @@
     background-position: left;
     justify-content: center;
     text-align: center;
+    padding: 10px;
+    min-height: 100vh;
+    /* font-size: 2.5rem; */
+
   }
 
   .home .content h3 {
@@ -64,7 +68,7 @@
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
   .header {
     padding: 1rem 6%;
@@ -79,9 +83,21 @@
     font-size: 2.5rem;
   }
   .home {
-    padding: 100px;
-    min-height: 50vh;
+    padding: 10px;
+    min-height: 80vh;
+    font-size: 2.5rem;
   }
+  .home .content h3{
+    font-size: 2.5rem;
+  }
+  .home .content p{
+    font-size:2rem;
+  }
+
+  /* funciona em container
+  resize:both;
+  overflow:auto; */
+  
   .footer .credit {
     font-size: 1.2rem;
   }

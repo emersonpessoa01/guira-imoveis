@@ -1,17 +1,21 @@
 /* INICIO */
 .home {
-    padding-top: 500px;
+    padding-top: 200px;
     min-height: 100vh;
+    min-width:100vw;
     display: flex;
     align-items: center;
     background: url(../imagens/fachada1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment:fixed;
     margin: 0 0 20px;
   }
   
   .home .content {
     max-width: 60rem;
+
+    
   }
   
   /* .home .content h3 {
@@ -24,8 +28,6 @@
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    /* padding-bottom: 3.5rem; */
-    font-size: 4rem;
     text-shadow: 1px 1px 2px #000;
 
   }
