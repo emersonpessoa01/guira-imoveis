@@ -1,7 +1,7 @@
 # Guira imóveis
 ### Responsive Website Guira Imóveis
 
- <p>Site responsivo usando HTML, CSS e JavaScript. Tem uma interface de formulário. Contém um Cabeçalho com link de início, produtos e contato.</p>
+ <p>Site responsivo usando HTML, CSS e JavaScript. Tem uma interface de formulário. Contém um cabeçalho com link de início, produtos e contato.</p>
 
 ## Pré-visualização:
 
