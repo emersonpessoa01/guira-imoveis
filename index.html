@@ -1,142 +1,188 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F4 Life</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <link
-      rel="shortcut icon"
-      href="imagens/favicon-16x16.png"
-      type="image/x-icon"
-    />
-
-    <title>Guira Imóveis</title>
-
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="beneficios.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&family=Pacifico&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <div class="caixa">
-        <h1><img src="imagens/log Guira.png" alt="" /></h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          </ul>
-        </nav>
+    <!-- Seção header -->
+    <header class="header">
+      <a href="#" class="logo"><img src="imagens/log Guira.png" alt="" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
       </div>
     </header>
+    <!-- Final do header -->
 
-    <img class="fachada1" src="imagens/fachada1.jpg" />
+    <!-- home section starts  -->
 
-    <main>
-      <section class="principal">
-        <h1 class="titulo-principal-1"><strong>Guira Imóveis </strong></h1>
-        <img
-          class="casa2"
-          src="imagens/CASA 2 FULL.jpg"
-          alt="Imagem de uma casa por dentro"
-        />
-
-        <p class="descricao-1">
-          Empresa <strong>Nordestina</strong>, localizada em Recife-Pe,<br />entrega
-          para você o imóvel do seu sonho.<br />
-          Fundada há mais de 10 anos no mercado comercial e reconhecida<br />
-          pelo excelente atendimento e vem conquistando clientes a cada dia.
-        </p>
-        <br />
-
+    <section class="home" id="home">
+      <div class="content">
+        <h3 class="heading">Lorem Ipsum.</h3>
         <p>
-          <strong>Nossa Missão.</strong
-          ><em
-            >Atender os nossos clientes,entregando o imóvel dos sonhos e
-            contribuir com a realização desse sonho,tornando-o tangível.</em
-          >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
         </p>
-        <br />
+        <a href="#" class="btn blue">Clique aqui</a>
+      </div>
+    </section>
 
-        <p>
-          <strong>Nossa Visão.</strong
-          ><em
-            >Oferecer um atendimento de excelência,através dos nossos
-            profissionais especialistas,para entender e atender nossos clientes
-            com o imóvel desejado,<br />
-            adequado e que atenda suas necessidades e expectativas.</em
-          >
-        </p>
-        <br />
+    <!-- Fim do Home -->
+    <!-- inicio marketing -->
+    <section class="top" id="top">
+      <div class="top-content">
+        <h1 class="heading">Guira<span> Imóveis.</span> </h1>
+        <img class="utensilios" src="imagens/CASA 2 FULL.jpg" alt="Imagem de uma casa por dentro">
+        <div class="text-2">
+          <p>
+            Empresa <strong>Nordestina</strong>, localizada em Recife-Pe, entrega
+          para você o imóvel do seu sonho. Fundada há mais de 10 anos no mercado comercial e reconhecida pelo excelente atendimento e vem conquistando clientes a cada dia.
+          </p>
+        </div>
+        <div class="text-3">
+          <p>
+            <strong>Nossa Visão: </strong
+            ><em
+              >oferecer um atendimento de excelência,através dos nossos
+              profissionais especializados, para entender e atender nossos clientes
+              com o imóvel desejado, adequado e que atenda suas necessidades e expectativas.</em
+            >
+          </p>
+        </div>
+        <div class="text-4 top-margin">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos error
+            eveniet nesciunt qui et nostrum, ea autem quia explicabo aut
+            reprehenderit ipsam dolor, alias exercitationem facilis quaerat nobis,
+            voluptatibus animi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Fim da marketing -->
 
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos error
-          eveniet nesciunt qui et nostrum, ea autem quia explicabo aut
-          reprehenderit ipsam dolor, alias exercitationem facilis quaerat nobis,
-          voluptatibus animi.
-        </p>
-        <br />
-      </section>
+    
+    <!-- Início do About -->
 
-      <section class="mapa">
-        <h3 class="titulo-principal">Nosso Estabelecimento</h3>
-        <p>Estamos localizada no Recife</p>
-        <div class="mapa-conteudo">
+    
+
+    <section class="about" id="about">
+      <h1 class="heading">Nosso<span> Estabelecimento </span></h1>
+      <div class="row">
+        <div class="image">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.1512964869016!2d-34.896937285640064!3d-8.086048683086217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f3bec607c45%3A0xf9b44be61a236c4d!2sRioMar%20Recife!5e0!3m2!1spt-BR!2sbr!4v1649535414563!5m2!1spt-BR!2sbr"
             width="100%"
-            height="300"
+            height="410"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </section>
-      <!-- BENEFÍCIOS -->
-      <div class="container">
-        <h3 class="titulo-principal">Benefícios</h3>
-        <main class="grid">
-          <article class="card-1">
-            <div class="text">
-              <ul class="lista-beneficios">
-                <li class="itens">Atendimento Personalizado</li>
-                <li class="itens">Experiência de mercado</li>
-                <li class="itens">O imóvel dos seus sonhos</li>
-                <li class="itens">Pesquisa individual</li>
-              </ul>
-            </div>
-          </article>
-          <article class="card-2">
-            <img src="./imagens/fachada2.jpg" width="300px" alt="">
-            <div class="text">
-              <h3>Casa 1</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quae tenetur alias explicabo sapiente inventore ad magni eum id accusantium.</p>
-              <button class="button-1">Visitar</button>
-            </div>
-          </article>
-          <article class="card-3">
-            <video src="./imagens/interior-casa.mp4" width="300px" alt="" controls style="border: 0"></video>
-            <div class="text">
-              <h3>Casa 2</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quae tenetur alias explicabo sapiente inventore ad magni eum id accusantium.</p>
-              <button class="button-2">Visitar</button>
-            </div>
-          </article>
-          
-        </main>
-      </div>
-    </main>
-    <footer>
-      <img src="imagens/favicon-32x32.png" alt="" />
 
-      <p class="copyright">&copy;Copyright Guira Imóveis - 2022</p>
-    </footer>
+        <div class="content">
+          <h3>Estamos localizados em Recife</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            sunt, dolor molestiae suscipit commodi quaerat quia nostrum ex aut
+            voluptates reprehenderit magnam quisquam at doloribus quidem sit
+            nobis fuga obcaecati?
+          </p>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Voluptatibus velit quam voluptas. Porro id at harum perspiciatis
+            quis tenetur repellendus. Facilis esse facere magnam dicta laborum
+            sequi molestias nulla natus.
+          </p>
+          <a href="#" class="btn blue">saber mais</a>
+        </div>
+      </div>
+    </section>
+    <!-- Fim do sobre -->
+
+    
+
+    <!-- Fim do blog-->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Nossos</span> benefícios</h1>
+
+      <div class="row">
+        <div class="map">
+          <p>Serviços</p>
+          <div class="inner">
+            <ul>
+              <li class="itens">Atendimento aos clientes.</li>
+              <li class="itens">Localização.</li>
+              <li class="itens">Espaço diferenciado.</li>
+              <li class="itens">Profissionais Qualificados.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="map">
+          <img src="./imagens/fachada2.jpg" width="100%" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">Nosso<span> Estabelecimento </span></h1>
+      <div class="row">
+          <video src="./imagens/interior-casa.mp4" width="100%" alt="" controls style="border: 0">
+          </video>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      </div>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+      </div>
+      <div class="credit">
+        &copy;Todos os Direitos Reservados | Criado por <span>Renata Patrícia Pausini</span> |
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </div>
+      
+    </section>
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
   </body>
 </html>

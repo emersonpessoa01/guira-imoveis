@@ -1,0 +1,88 @@
+/* media queries  */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  header .navbar.active {
+    left: 0;
+    transition: all 0.8s ease;
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+  }
+  .home .content p {
+    font-size: 1.5rem;
+  }
+  .about .row .content {
+    justify-content: center;
+    text-align: center;
+  }
+  .about .row .content p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 1rem 6%;
+  }
+  .header .logo img {
+    height: 6rem;
+  }
+  .header .icons div {
+    font-size: 2rem;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+  .home {
+    padding: 100px;
+    min-height: 50vh;
+  }
+  .footer .credit {
+    font-size: 1.2rem;
+  }
+}
