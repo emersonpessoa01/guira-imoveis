@@ -6,10 +6,13 @@
   gap: 1rem;
 }
 
-.contact .row .map {
+.map {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .map p {
   font-weight: 700;
@@ -19,16 +22,17 @@
   line-height: 23px;
   text-align: center;
 }
+.map img {
+  width: 100%;
+}
+
 .inner ul {
-  padding-bottom: 1rem;
-  margin: 0 1.5rem;
+  margin: 0 2rem;
   line-height: 46px;
 }
 .inner .itens {
   font-size: 1.6rem;
   color: #ccc;
-  padding: 1rem 0;
-
 }
 
 .inner .itens:nth-child(1):before {
