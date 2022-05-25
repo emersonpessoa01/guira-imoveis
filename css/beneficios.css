@@ -6,7 +6,7 @@
   gap: 1rem;
 }
 
-.map {
+.contact .row .map {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
@@ -22,27 +22,28 @@
   line-height: 23px;
   text-align: center;
 }
-.map img {
-  width: 100%;
-}
-
 .inner ul {
-  margin: 0 2rem;
-  line-height: 46px;
+  padding-bottom: 1rem;
+  margin: 0 0.75rem;
 }
 .inner .itens {
   font-size: 1.6rem;
   color: #ccc;
+  padding: 1rem 0;
 }
 
 .inner .itens:nth-child(1):before {
   font-weight: 700;
   color: var(--color-logo);
   content: "✭";
+  
 }
-.inner .itens:nth-child(1) {
+.inner .itens:nth-child(1){
   color: rgb(194, 194, 28);
+
+  
 }
+  
 
 .inner .itens:before {
   content: "✭";
