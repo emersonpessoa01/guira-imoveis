@@ -43,8 +43,8 @@
   
 
 .inner .itens:before {
-  /* content: "✭"; */
-  content: "🗸";
+  content: "✭";
+  /* content: "🗸"; */
   color: rgb(194, 194, 28);
   padding: 0 1rem;
   font-weight: 700;
