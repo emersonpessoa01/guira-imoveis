@@ -27,9 +27,10 @@
     background: #fff;
     width: 30rem;
     height: calc(100vh - 9.5rem);
+    transition: all 1.2s ease;
   }
 
-  header .navbar.active {
+  .header .navbar.active {
     left: 0;
     transition: all 0.8s ease;
   }
