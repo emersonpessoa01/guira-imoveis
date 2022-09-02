@@ -7,5 +7,5 @@
 
 [guira-imóveis](https://guira-imoveis-renata.netlify.app/)
 
-<div align="center"><img src="imagens/CASA 2 FULL.jpg" width=auto>
+<div align="center"><img src="imagens/CASA 2 FULL.jpg" width="100%">
 </div>
