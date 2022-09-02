@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 7%;
+  padding: .5rem 4%;
   border-bottom: var(--border);
   position: fixed;
   top: 0;
@@ -19,7 +19,7 @@
 }
 
 .header .logo img {
-  height: 6rem;
+  height: 4rem;
 }
 .header .navbar a {
   margin: 0 1rem;

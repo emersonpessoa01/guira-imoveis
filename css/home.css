@@ -1,8 +1,7 @@
 /* INICIO */
 .home {
     padding-top: 200px;
-    min-height: 100vh;
-    min-width:100vw;
+    max-width: 100%;
     display: flex;
     align-items: center;
     background: url(../imagens/fachada1.jpg) no-repeat;
@@ -13,7 +12,7 @@
   }
   
   .home .content {
-    max-width: 60rem;
+    max-width: 1000px;
 
     
   }
@@ -29,6 +28,7 @@
     color: #fff;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #000;
+    font-size: 3.5rem;
 
   }
   

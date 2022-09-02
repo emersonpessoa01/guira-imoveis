@@ -3,6 +3,7 @@
   align-items: center;
   background: var(--blue-dark);
   flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .about .row .image {
