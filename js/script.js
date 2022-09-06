@@ -4,6 +4,7 @@ let header = document.querySelector(".header");
 
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
+  navbar.classList.remove("active")
 });
 
 menu.onclick = () => {
