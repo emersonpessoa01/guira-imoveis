@@ -5,6 +5,9 @@
   flex-wrap: wrap;
   max-width: 100%;
 }
+.about .row .clip{
+  cursor :pointer;
+}
 
 .about .row .image {
   flex: 1 1 45rem;
