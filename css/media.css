@@ -31,7 +31,7 @@
   .header .navbar {
     position: absolute;
     top: 100%;
-    left: -100%;
+    left: -150%;
     background: #fff;
     width: 30rem;
     height: calc(100vh - 9.5rem);
@@ -72,10 +72,10 @@
     font-size: 45%;
   }
   .header {
-    padding: 1rem 6%;
+    padding: 2rem 6%;
   }
   .header .logo img {
-    height: 2.5rem;
+    height: 3rem;
   }
   
   .header .icons div {
