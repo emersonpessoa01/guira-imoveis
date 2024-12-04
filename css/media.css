@@ -65,6 +65,11 @@
   .about .row .content p {
     text-align: left;
   }
+  .utensilios {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 3px;
+  }
 }
 
 @media (max-width: 450px) {
