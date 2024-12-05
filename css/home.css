@@ -6,7 +6,7 @@
     align-items: center;
     background: url(../imagens/fachada1.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 45% center;
     background-attachment:fixed;
     margin: 0 0 20px;
   }
